@@ -1,0 +1,40 @@
+<section class="section-conten padding-y container" style="min-height:35vh">
+
+    <div class="row mt-5 mb-5">
+        <div class="col-sm-7">
+            <h2>Welcome</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet ultrices urna. Praesent interdum, risus vel varius faucibus, eros sapien vulputate lectus, ac feugiat dui lacus non risus. Donec vulputate diam nec dapibus bibendum. Aliquam pharetra vitae nibh et mollis. Fusce feugiat a erat ac mattis. Aliquam erat volutpat. Nullam vestibulum maximus mattis. Sed tellus turpis, tristique vel felis vitae, lobortis varius leo. Vivamus gravida ligula leo, eget vestibulum tellus accumsan non. Cras eleifend, massa sit amet vulputate hendrerit, arcu eros commodo quam, a feugiat lectus urna sit amet urna. Aliquam pellentesque nulla urna, nec efficitur ante rutrum vestibulum. Aenean ac erat sed metus scelerisque sagittis in at massa. In aliquam sapien metus, in eleifend lacus suscipit volutpat. Donec sit amet eros accumsan, vestibulum ipsum a, vestibulum metus. Morbi lorem tortor, egestas sodales dignissim et, malesuada ut eros.</p>
+            <p>Pellentesque vestibulum, enim non feugiat semper, mi mi vestibulum arcu, sit amet vestibulum nulla est nec odio. Quisque urna justo, mattis ac magna quis, bibendum accumsan dui. Nunc ac libero fermentum, tincidunt felis at, blandit sem. Nunc a ipsum a tortor pellentesque luctus id a nisi. Vestibulum semper enim sit amet lorem finibus maximus. Nulla vitae varius metus, sit amet rhoncus tortor. Aenean in mi rutrum lectus aliquet euismod sed eget leo. Aenean nisi augue, dignissim ut leo vel, vulputate placerat ex. Aliquam erat volutpat. Mauris sed fringilla nulla, ut suscipit purus. Cras id rutrum urna. Suspendisse auctor est vel elit dictum accumsan.</p>
+
+        </div>
+        <div class="col-sm-5">
+            <div class="card mx-auto" style="max-width: 380px;">
+                <form novalidate (ngSubmit)="login()" [formGroup]="loginForm">
+                    <div class="card-body">
+                        <h4 class="card-title mb-4">Welcome!</h4>
+
+                        <div class="form-group">
+                            <input class="form-control" id="email" type="text" placeholder="E-mail" formControlName="email"  />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" id="senha" placeholder="password"   formControlName="senha" class="form-control"/>
+                        </div>
+
+                        <div class="form-group">
+                            <button class="btn btn-success btn-block">                               
+                                Log in
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div class="card-footer text-center">
+                    <span>Not have an account yet?</span>
+                    <a class="btn btn-primary ml-2" href="account/signup" >
+                        Create Account
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

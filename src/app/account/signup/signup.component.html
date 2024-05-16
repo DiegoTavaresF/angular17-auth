@@ -1,0 +1,41 @@
+<section class="section-conten padding-y container" style="min-height: 35vh">
+
+    <div class="card mx-auto" style="max-width: 380px; margin-top: 100px;">
+
+        <form novalidate (ngSubmit)="addAccount()" [formGroup]="signupForm">
+            <div class="card mx-auto" style="max-width: 380px;">
+                <div class="card-body">
+                    <h4 class="card-title mb-4">Welcome!</h4>
+
+                    <div class="form-group">                       
+                        <input class="form-control" id="nome" type="text" placeholder="name" formControlName="nome"  />
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" id="email" type="text" placeholder="E-mail(*)" formControlName="email"  />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="password" id="senha" placeholder="password"   formControlName="password" class="form-control"/>
+                    </div>
+
+                    <div class="form-group">                       
+                        <input type="password" id="senhaConfirmacao" placeholder="confirm password" formControlName="senhaConfirmacao"  class="form-control"/>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-success btn-block" type="submit">
+                            Create Account 
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="card-footer text-center">
+            Do you already have an account?
+            <a class="btn btn-primary ml-2" href="account/login" >
+                Log in
+            </a> 
+        </div>
+    </div>
+</section>

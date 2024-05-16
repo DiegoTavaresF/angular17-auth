@@ -1,0 +1,264 @@
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a, .btn-link {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.content {
+    padding-top: 1.1rem;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
+    background-color: #191919;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100%;
+    background-color: #F2F2F2;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    background-color: #191919;
+    color: #a9a9a9;
+}
+
+.footer-link {
+    font-family: "Greycliff CF","Fira Sans","sans-serif";
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer-subtitle {
+    font-size: 14px;
+    color: white;
+}
+
+.menu-top-color {
+    background-color: #2f2e2e;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+.nav-link {
+    color: #a9a9a9;
+}
+
+.menu-active {
+    text-decoration: none;
+    color: white !important;
+    border-bottom: 2px solid #2D5E48;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white !important;
+}
+
+.nav-link
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.row-comp-name {
+    background-color: #474747;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.row-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-left: 11px;
+    background-color: white;
+    border-bottom: 1px solid #dae0e4;
+}
+
+.row-match {
+    line-height: 30px;
+    background-color: white;
+}
+
+.row-bets {
+    margin-top: 10px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 600;
+    padding-left: 11px;
+    background-color: #4d4d4d;
+    border-bottom: 1px solid whitesmoke;
+    color: white;
+}
+
+.row-subtitle {
+    margin-top: 10px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 600;
+    padding-left: 11px;
+    background-color: #4d4d4d;
+    border-bottom: 1px solid whitesmoke;
+    color: white;
+}
+
+    .row-subtitle::after {
+        font-family: 'Font Awesome 5 Free';
+        content: "\f107";
+        float: right;
+        padding-right: 5px;
+        font-size: 20px;
+    }
+
+.row-details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #dae0e4;
+}
+
+.row-subtitle-item {
+    line-height: 10px;
+    background-color: white;
+}
+
+.row-hover:hover {
+    background-color: #C6D0D5;
+}
+
+.col-action-link-primary {
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 3px;
+    text-decoration: none;
+}
+
+    .col-action-link-primary:hover {
+        background-color: #007bff;
+        color: white;
+    }
+
+.col-action-link-danger {
+    border: 1px solid #dc3545;
+    color: #dc3545;
+    padding: 3px;
+    text-decoration: none;
+}
+
+    .col-action-link-danger:hover {
+        background-color: #dc3545;
+        color: white;
+    }
+
+.col-action-link-success {
+    border: 1px solid #28a745;
+    color: #28a745;
+    padding: 3px;
+    text-decoration: none;
+}
+
+    .col-action-link-success:hover {
+        background-color: #28a745;
+        color: white;
+    }
+
+.far {
+    font-size: 20px;
+}
+
+
+
+
+
+@media (max-width: 702px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 724px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+

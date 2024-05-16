@@ -1,0 +1,16 @@
+@if(userNotifications.type) {
+  <div  class="alert alert-{{userNotifications.type}} alert-dismissible fade show">
+    <h5>{{userNotifications.title}}</h5>
+    <ul>
+      @for (errorMessage of userNotifications.messages; track errorMessage) {
+        <li>{{ errorMessage }}</li>
+      } 
+     
+      <li>{{userNotifications.dateTime}}</li>
+    </ul>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+}
+
