@@ -23,7 +23,7 @@ export class MenuLoginComponent {
   }
 
   logout() {
-    this.localStorageUtils.limparDadosLocaisUsuario();    
+    this.localStorageUtils.limparDadosLocaisUsuario();   
 
     this.router.navigate(['/account/login']).then(() => {
       window.location.reload();
